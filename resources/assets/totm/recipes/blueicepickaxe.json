@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " I ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        
+        "I":
+        {
+            "item": "totm:blue_ice_i`ngot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "totm:blue_ice_pickaxe",
+        "count": 1
+    }
+}

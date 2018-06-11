@@ -1,0 +1,9 @@
+//Items
+item.blue_ice_ingot.name=Blue Ice Ingot
+item.blue_ice_shard.name=Blue Ice Shard
+item.tensile_mercury_flask.name=Tensile Mercury Flask
+item.back_door_key.name=Back Door Key
+item.front_door_key.name=Front Door Key
+//Blocks
+tile.blue_ice_block.name=Blue Ice
+//Tools

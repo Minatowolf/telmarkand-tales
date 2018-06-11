@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "  S",
+        " I ",
+        "I  "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "totm:blue_ice_shard"
+        },
+        
+        "I":
+        {
+            "item": "totm:blue_ice_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "totm:blue_ice_spear",
+        "count": 1
+    }
+}
