@@ -2,8 +2,10 @@ package com.minatowolf.talesoftelmarkandmod;
 
 import com.minatowolf.talesoftelmarkandmod.init.ModRecipes;
 import com.minatowolf.talesoftelmarkandmod.proxy.CommonProxy;
+import com.minatowolf.talesoftelmarkandmod.tabs.TelmarkandTab;
 import com.minatowolf.talesoftelmarkandmod.util.Reference;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -15,6 +17,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main 
 {
+	public static final CreativeTabs telmarkandtab = new TelmarkandTab("telmarkandtab");
+	
 	@Instance
 	public static Main instance;
 	
@@ -22,7 +26,7 @@ public class Main
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event)
+	public static void preInit(FMLPreInitializationEvent event)
 	{
 		
 	}
@@ -34,7 +38,7 @@ public class Main
 	}
 	
 	@EventHandler
-	public static void Postinit(FMLPostInitializationEvent event)
+	public static void postInit(FMLPostInitializationEvent event)
 	{
 		
 	}

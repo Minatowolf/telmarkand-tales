@@ -6,4 +6,6 @@ item.back_door_key.name=Back Door Key
 item.front_door_key.name=Front Door Key
 //Blocks
 tile.blue_ice_block.name=Blue Ice
+//Tabs
+itemGroup.telmarkandtab=Tales of Telmarkand
 //Tools
